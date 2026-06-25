@@ -1,0 +1,7 @@
+parameters:
+- name: environment
+  type: string
+
+steps:
+  - script: |
+      echo "Deploying to ${{ parameters.environment }}"
